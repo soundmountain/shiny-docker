@@ -1,0 +1,6 @@
+name: shiny-simple-demo
+services:
+    my-shiny:
+        ports:
+            - 3838:3838
+        image: my-shiny:4.4
