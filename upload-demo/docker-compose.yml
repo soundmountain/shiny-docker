@@ -1,0 +1,6 @@
+name: shiny-upload-demo
+services:
+    my-shiny:
+        ports:
+            - 3838:3838
+        image: my-shiny-txt:4.4
