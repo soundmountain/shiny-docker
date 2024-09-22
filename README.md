@@ -10,15 +10,15 @@
   ./build.sh
   ```
 - run the image:
-```
-./run.sh
-```
-or depending on your system:
-```
-docker-compose up -d
-```
-or
-```
-docker compose up -d
-```
+  ```
+  ./run.sh
+  ```
+  or depending on your system:
+  ```
+  docker-compose up -d
+  ```
+  or
+  ```
+  docker compose up -d
+  ```
 - navigate to http://IP_of_Host:3838
