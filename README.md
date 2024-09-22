@@ -10,7 +10,9 @@
   ./build.sh
   ```
 - run the image:
-```./run.sh```
+```
+./run.sh
+```
 or depending on your system:
 ```
 docker-compose up -d
