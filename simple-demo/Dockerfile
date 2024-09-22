@@ -1,4 +1,4 @@
-FROM rocker/shiny:4.1.0
+FROM rocker/shiny:4.4
 RUN rm -rf /srv/shiny-server/*
 WORKDIR /srv/shiny-server/
 RUN R -e "install.packages(c('shiny', 'ggplot2'), repos='https://cran.rstudio.com/')"
